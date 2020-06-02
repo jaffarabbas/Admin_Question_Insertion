@@ -13,7 +13,7 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception {
         System.out.println(getClass());
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        stage.setTitle("User Registration");
+        stage.setTitle("Examination portal");
         stage.setScene(new Scene(root, 800, 500));
         stage.show();
     }
