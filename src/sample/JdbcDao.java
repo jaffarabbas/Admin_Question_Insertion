@@ -1,10 +1,7 @@
 package sample;
 
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class JdbcDao {
 
@@ -13,7 +10,7 @@ public class JdbcDao {
     private static final String DATABASE_USERNAME = "root";
     private static final String DATABASE_PASSWORD = "";
     private static final String INSERT_QUERY = "INSERT INTO questioncurd (Question,option1,option2,option3,option4,Answer) VALUES (?, ?, ?, ?, ?, ?)";
-
+    private static final String SELECT_QUERY_LOGIN = "SELECT * FROM login WHERE email_id = ? and password = ?";
 
     public void insertRecord(String Question,String Option_1,String Option_2,String Option_3,String Option_4,String Answer) throws SQLException {
 
@@ -45,6 +42,33 @@ public class JdbcDao {
             // print SQL exception information
             printSQLException(e);
         }
+    }
+
+    public boolean validate(String emailId, String password) throws SQLException {
+
+        // Step 1: Establishing a Connection and
+        // try-with-resource statement will auto close the connection.
+        try (Connection connection = DriverManager
+                .getConnection(DATABASE_URL, DATABASE_USERNAME, DATABASE_PASSWORD);
+
+             // Step 2:Create a statement using connection object
+             PreparedStatement preparedStatement = connection.prepareStatement(SELECT_QUERY_LOGIN)) {
+            preparedStatement.setString(1, emailId);
+            preparedStatement.setString(2, password);
+
+            System.out.println(preparedStatement);
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if(resultSet.next()){
+                return true;
+            }
+
+
+        } catch (SQLException e) {
+            // print SQL exception information
+            printSQLException(e);
+        }
+        return false;
     }
 
     public static void printSQLException(SQLException ex) {
