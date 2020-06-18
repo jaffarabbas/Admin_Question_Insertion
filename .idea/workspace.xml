@@ -57,9 +57,6 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="JavaFxApplication" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -86,7 +83,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -97,10 +93,12 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAVA_MYSQL_CONNECTER/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../All-in-one-oop-concept-Example" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -208,30 +206,36 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="232" y="151" key="#Project_Structure" timestamp="1591199725224">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state x="248" y="27" width="1024" height="702" key="#Project_Structure" timestamp="1591255642252">
+      <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="232" y="151" key="#Project_Structure/0.0.1280.984@0.0.1280.984" timestamp="1591199725224" />
-    <state x="420" y="248" key="FileChooserDialogImpl" timestamp="1591126529078">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state x="248" y="27" width="1024" height="702" key="#Project_Structure/0.27.1366.702@0.27.1366.702" timestamp="1591255642252" />
+    <state x="448" y="204" width="735" height="513" key="FileChooserDialogImpl" timestamp="1591365566820">
+      <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state x="420" y="248" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1591126529078" />
-    <state width="1237" height="124" key="GridCell.Tab.0.bottom" timestamp="1591251947784">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state x="448" y="204" width="735" height="513" key="FileChooserDialogImpl/0.27.1366.702@0.27.1366.702" timestamp="1591365566820" />
+    <state width="1320" height="163" key="GridCell.Tab.0.bottom" timestamp="1591297711416">
+      <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1237" height="124" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1591251947784" />
-    <state width="1237" height="124" key="GridCell.Tab.0.center" timestamp="1591251947783">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1320" height="163" key="GridCell.Tab.0.bottom/0.27.1366.702@0.27.1366.702" timestamp="1591297711416" />
+    <state width="1320" height="163" key="GridCell.Tab.0.center" timestamp="1591297711415">
+      <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1237" height="124" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1591251947783" />
-    <state width="1237" height="124" key="GridCell.Tab.0.left" timestamp="1591251947783">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1320" height="163" key="GridCell.Tab.0.center/0.27.1366.702@0.27.1366.702" timestamp="1591297711415" />
+    <state width="1320" height="163" key="GridCell.Tab.0.left" timestamp="1591297711415">
+      <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1237" height="124" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1591251947783" />
-    <state width="1237" height="124" key="GridCell.Tab.0.right" timestamp="1591251947783">
-      <screen x="0" y="0" width="1280" height="984" />
+    <state width="1320" height="163" key="GridCell.Tab.0.left/0.27.1366.702@0.27.1366.702" timestamp="1591297711415" />
+    <state width="1320" height="163" key="GridCell.Tab.0.right" timestamp="1591297711415">
+      <screen x="0" y="27" width="1366" height="702" />
     </state>
     <state width="1237" height="124" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1591251947783" />
+    <state width="1320" height="163" key="GridCell.Tab.0.right/0.27.1366.702@0.27.1366.702" timestamp="1591297711415" />
     <state x="22" y="195" key="new project wizard" timestamp="1591107340374">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
